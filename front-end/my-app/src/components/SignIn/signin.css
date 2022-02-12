@@ -1,0 +1,32 @@
+* {
+
+}
+
+
+.title{
+ color: rgb(89, 71, 255);
+ font-weight: bold;
+ font-size: 20px;
+ color: rgb(45, 45, 63);
+
+ 
+}
+
+.input {
+ width:10cm;
+
+}
+
+.form{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 5cm;
+
+}
+
+.inputsubmit{
+ width:10cm;
+ background-color:yellowgreen
+}

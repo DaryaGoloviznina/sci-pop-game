@@ -1,0 +1,43 @@
+.wrapper {
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: center;
+  }
+
+  .navbar{
+   background-color: rgb(162, 204, 202);
+   text-decoration: none;
+  }
+
+  .navbarbrand{
+   background-color: rgb(35, 105, 209);
+   border-radius: 5%;
+   padding: 7px 10px;
+   margin-right: 5cm;
+ border: 2px solid rgb(250, 250, 250);
+   text-decoration: none;
+   text-decoration: none;
+  }
+
+  .navitem{
+   background-color: rgb(35, 105, 209);
+   border-radius: 5%;
+   margin-left: 1cm;
+   color: rgb(21, 62, 199);
+   border: 2px solid rgb(248, 245, 245);
+
+   text-decoration: none;
+   padding: 0px 10px;
+   font-size: large;
+  }
+
+  .navlink{
+   color: white;
+   text-decoration: none;
+  }
+
+  body {
+   background-image: linear-gradient(120deg, #87c3c7 0%, #e6eff5 40%);
+
+   min-height: 100vh;
+  }

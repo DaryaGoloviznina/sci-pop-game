@@ -1,0 +1,61 @@
+.input{
+  width: 72%;
+}
+
+.modal{
+  position: absolute;
+  bottom: 50%; /* Положение от нижнего края */
+  right: 38%;
+  width: 1000px;
+}
+
+.cell{
+  border: 2px solid rgb(231, 230, 230);
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  cursor:pointer;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(120deg,  #40b7c5 0%, #76c2c5 80%);
+  font-weight: bold;
+ 
+}
+
+.cell:hover{
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1) ;
+ background-color: rgba(240, 255, 240, 0.514);
+
+}
+
+
+.table{
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  bottom: center; /* Положение от нижнего края */
+  right: center;
+  text-align: center;
+  margin-top: 3cm;
+  margin-left: 10cm;
+  font-weight: 400;
+}
+
+.completed {
+  color: rgb(251, 251, 253);
+  border: 2px solid rgb(231, 230, 230);
+  background-color: rgb(91 139 143);
+}
+
+.points{
+ text-align: center;
+ margin-top: 2cm;
+ color: rgb(48, 46, 46);
+ font-weight: 50px;
+ font-size: 50px;
+ 
+}
